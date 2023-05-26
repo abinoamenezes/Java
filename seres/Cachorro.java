@@ -10,5 +10,10 @@ public class Cachorro extends Animal {
     public void latir(){
         System.out.println("O cahorro está latindo");
     }
+
+    @Override
+    public void emitirSom() {
+        System.out.println("AU AU");
+    }
     
 }
